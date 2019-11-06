@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/login.js"></script>
+</head>
+<body>
+    <div class="introduce hidden-xs hidden-sm hidden-md">
+        <h2>介绍</h2>
+        <p>
+            使用html,css,js,jquery,ajax完成的简单拍灰太狼游戏，打小灰灰减分，打灰太狼加分，记录最高分，
+            登录显示该账户id,name,和头像，切换账户等。包含事件监听，ajax请求数据，两个页面传值等
+            <b>注意：此项目使用了ajax的get传值，不能直接双击打开，需用编辑器的live server打开才能看到完整效果。账户密码有三组：{001,123456}，{002,123456}，{003,123456}，请任意输入 一组</b>
+        </p>
+    </div>
+    <div class="login">
+        游戏账号：<input type="text" class="id"><br>
+        密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="text" class="pwd"><br>
+        <input type="submit" value="登录" class="submit">
+        <input type="submit" value="注册" class="register">
+        <p>没有账号？点击 <a href="#">注册</a> </p>
+        <img src="images/logo.png" alt="">
+    </div>    
+</body>
+</html>

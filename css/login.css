@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../images/2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+.introduce{
+    left: 80px;
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    background-color: rgba(255, 255, 255, 0.5);;
+}
+.introduce h2{
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;;
+}
+.introduce p{
+    text-indent: 30px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.login{
+    width: 360px;
+    height: 360px;
+    background-color: paleturquoise;;
+    margin: 100px auto;
+    padding: 20px;
+    position: relative;;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin: 30px 0;
+}
+.id{
+    margin-top: 70px;
+}
+.submit,.register{
+    margin-left: 80px;
+    border: none;
+    background-color: orangered;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 50px;
+    text-indent: 40px;;
+}
+.register{
+    display: none;
+}
+.login img{
+    width: 120px;
+    height: 120px;
+    top: -40px;
+    left: 290px;
+    position: absolute;
+}
+.login p{
+   font-size: 12px;
+}

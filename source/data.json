@@ -1,0 +1,18 @@
+{
+     "user":[
+        { "name":"喜羊羊",
+            "id":"001",
+            "pwd":"123456",
+            "img":"../images/xi.jpg"},
+        { "name":"懒洋洋",
+            "id":"002",
+            "pwd":"123456",
+            "img":"../images/lan.jpg"},
+        { "name":"沸羊羊",
+            "id":"003",
+            "pwd":"123456",
+            "img":"../images/fei.jpg"}
+       
+    ]
+   
+}
